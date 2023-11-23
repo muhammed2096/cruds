@@ -48,7 +48,7 @@ submit.onclick = function(){
         count: count.value,
         category: category.value.toLowerCase()
     }
-    if(title.value != '' && price.value != '' && category.value != '' && productsData.count < 100){
+    if(title.value != '' && price.value != '' && category.value != '' && newProduct.count < 100){
        if(mood === 'create'){
         if(newProduct.count > 1){
         for(let i = 0; i < newProduct.count; i++){
